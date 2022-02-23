@@ -1,0 +1,9 @@
+l1 = []
+N = int(input("Total Number of  Items = "))
+
+for i in range(1, N+ 1):
+    item = int(input("Please enter the %d Value = "  %i))
+    list1.append(item)
+    
+for i in range(len(l1) - 1, -1, -1):
+    print(l1[i], end = '  ')
